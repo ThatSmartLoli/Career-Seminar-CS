@@ -1,2 +1,2 @@
 # Career-Seminar-CS
-public digital portfolio
+My Public Digital Profile
