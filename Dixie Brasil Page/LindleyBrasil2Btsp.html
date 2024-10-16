@@ -1,0 +1,238 @@
+<!--
+Name: Austen Ray Lindley
+Student ID: 00105385
+Email: alindle2@my.athens.edu
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Brasil Contact Us</title>
+        <link rel="Icon" type="image/x-icon" href="Brasillogo.jpg">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="LindleyBrasilBtspStyle.css">
+        
+        <!-- JS -->
+        <link rel="stylesheet" href="LindleyBrasilBtsp.js">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <header>
+
+           <!-- Bootstrap Navbar -->
+           <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <a class="navbar-brand" href="#">Home</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="LindleyBrasilHomeBtsp.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="LindleyBrasil2Btsp.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="LindleyBrasilHomeBtsp.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                </ol>
+            </nav>
+            <a href="LindleyBrasilHomeBtsp.html"><img height="250" width="400" src="Brasilheaderlogo.png" alt="headerlogo"></a>
+
+        </header>
+
+        <main>
+
+            <div class="bg-secondary p-4" id="SocialMedia">
+                <h1 class="text-center">Contacts</h1>
+                <h2 class="text-center">Social Media Links</h2>
+                <!-- Bootstrap grid -->
+                <div class="container text-center">
+                    <div class="row">
+                      <div class="col">
+                        <a href="http://www.facebook.com"><img height="200" width="200" class="rounded mx-auto d-block" src="facebook.gif" alt="facebook"></a>
+                      </div>
+                      <div class="col">
+                        <a href="http://www.x.com"><img height="200" width="200" class="rounded mx-auto d-block" src="X(twitter)logo.gif" alt="X (twitter)"></a>
+                      </div>
+                      <div class="col">
+                        <a href="http://www.youtube.com"><img height="200" width="200" class="rounded mx-auto d-block" src="youtubelogo.gif" alt="youtube"></a>
+                      </div>
+                      <div class="col">
+                        <a href="http://www.instagram.com"><img height="200" width="200" class="rounded mx-auto d-block" src="instagramlogo.gif" alt="instagram"></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Bootstrap grid -->
+            <div class="container border text-center bg-light">
+                <div class="row">
+                    <div class="col">
+                        <div id="form">
+                            <hr>
+                            <h2>Help Form</h2>
+                            <hr>
+                            <p>
+                                For inquiries about our establishment, feel free to reach out by completing the contact form here. Your queries are our priority,
+                                and we will respond promptly to ensure your experience with us is exceptional.
+                            </p>
+                            <hr>
+                            <form action="#">
+                                <fieldset>
+                                    <fieldset>
+                                        <legend>User Info</legend>
+                                        <hr>
+                                        <label for="fname">First Name</label>
+                                        <input type="text" id="fname" name="fname"><br><br>
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" id="lname" name="lname"><br><br>
+                                        <label for="gmail">G-mail</label>
+                                        <input type="text" id="gmail" name="gmail"><br><br>
+                                    </fieldset>
+                                    <hr>
+                                    <fieldset>
+                                        <legend>Comments</legend>
+                                        <hr>
+                                        <p>
+                                            Please enter any questions that you may have for us. <br>
+                                        </p>
+                                        <label><textarea rows="5" cols="100" name="comments"> Enter comments here...</textarea></label>
+                                    </fieldset>
+                                    <br>
+                                    <input type="submit" name="submit" value="Submit" data-toggle="modal" data-target="#SubmitModal">
+                                    <input type="reset" name="reset" value="Clear" data-toggle="modal" data-target="#ResetModal">
+
+                                    <!-- Submit Modal -->
+                                    <div class="modal fade" id="SubmitModal" tabindex="-1" aria-labelledby="SubmitModal01" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="SubmitModal01">Submitted Successively</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <!-- Reset Modal -->
+                                    <div class="modal fade" id="ResetModal" tabindex="-1" aria-labelledby="ResetModal01" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="ResetModal01">Reset Successively</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </fieldset>
+                                <br>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div id="location">
+                            <hr>
+                            <h2>Location</h2>
+                            <hr>
+                            <p>
+                                Nestled between Hunstville and Florance, Athens is a close drive for a nice day of dining in our 
+                                first ever Brasilian restaurant. You can find our address on the map. Come by and have a great time!
+                            </p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d315.8447520917366!2d-86.95967950113837!3d34.78583684877488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88628b0b80895979%3A0x84300b84ca5a6576!2s229%20French%20Farms%20Blvd%20Suite%20F%2C%20Athens%2C%20AL%2035611!5e0!3m2!1sen!2sus!4v1706978649838!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <hr>   
+        </main>
+        <!-- Jumbotron -->
+        <footer class="jumbotron jumbotron-fluid text-center mb-0">
+            <br>
+            <div class="container">
+                <h2 class="display-2">Contacts</h2>
+                <ul>
+                    <li>Phone Number: 256-221-xxxx</li>
+                    <li>Gmail: DixieBrasilian@gmail.com</li>
+                    <li>229 French Farms Blvd f, Athens, AL 35611</li>
+                </ul>
+            </div>
+            <br>
+            <br>
+            <table>
+            <caption>Regular Store Hours <br> Store hours may vary on holidays! <br> Stay in touch on the media for the latest news.</caption>
+                <tr>
+                    <td></td>
+                    <th>10:00 am</th>
+                    <th>11:00 am</th>
+                    <th>12:00 pm</th>
+                    <th>1:00 pm</th>
+                    <th>2:00 pm</th>
+                    <th>3:00 pm</th>
+                    <th>4:00 pm</th>
+                    <th>5:00 pm</th>
+                    <th>6:00 pm</th>
+                    <th>7:00 pm</th>
+                    <th>8:00 pm</th>
+                    <th>9:00 pm</th>
+                </tr>
+                <tr>
+                    <th>Monday</th>
+                    <td colspan="11">Open</td>
+                    <td>Close</td>
+                </tr>
+                <tr>
+                    <th>Tuesday</th>
+                    <td colspan="11">Open</td>
+                    <td>close</td>
+                </tr>
+                <tr>    
+                    <th>Wednesday</th>
+                    <td colspan="7">Open</td>
+                    <td colspan="5">Close</td>
+                </tr>
+                <tr>
+                    <th>Thursday</th>
+                    <td colspan="11">Open</td>
+                    <td>Close</td>
+                </tr>
+                <tr>
+                    <th>Friday</th>
+                    <td colspan="12">Open</td>
+                </tr>
+                <tr>
+                    <th>Saturday</th>
+                    <td colspan="12">Open</td>
+                </tr>
+                <tr>    
+                    <th>Sunday</th>
+                    <td colspan="12">Close</td>
+                </tr>
+            </table>
+            <p>© 1996 – 2024 "Dixie Brasilian". All rights reserved.</p>
+        </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

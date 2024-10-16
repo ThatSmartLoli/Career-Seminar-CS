@@ -1,0 +1,293 @@
+<!--
+Name: Austen Ray Lindley
+Student ID: 00105385
+Email: alindle2@my.athens.edu
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Brasil Home</title>
+        <link rel="Icon" type="image/x-icon" href="Brasillogo.jpg">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="LindleyBrasilBtspStyle.css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <header>
+
+            <!-- Bootstrap Navbar -->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="LindleyBrasilHomeBtsp.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="LindleyBrasil2Btsp.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <a href="LindleyBrasilHomeBtsp.html"><img class="logo" height="250" width="400" src="Brasilheaderlogo.png" alt="headerlogo"></a>
+        </header>
+
+        <main>
+            <hr>
+
+            <!-- video -->
+            <div id="galleria">
+                <video width="1420" height="640" autoplay loop muted>
+                    <source src="meat-rotating-on-the-grill.mp4" type="video/mp4">
+                    <p>Your browser does not support the HTML5 video element.</p>
+                </video>
+            </div>
+            <hr>
+
+            <!-- Bootstrap Grid -->
+            <div class="container text-center bg-light">
+                
+                <!--Row one-->
+                <div class="row">
+
+                    <!--Column one-->
+                    <div class="col border">
+                        <hr>
+
+                        <!-- Welcome the the store -->
+                        <div id="welcome">
+                            <a href="#"><img src="Brasilheaderlogo1.png" alt="about"></a>
+                            <p>
+                                Welcome to Dixie Brasilian, where the vibrant spirit of Brasil meets the southern charm of Athens, Alabama!
+                                We are thrilled to bring our passion for authentic Brasilian cuisine to the welcoming small community of Athens. 
+                                At Dixie Brasilian, we pride ourselves on offering a unique dining experience that transports our guests to the 
+                                lively streets of Rio de Janeiro, right here in the heart of Alabama. From savory churrasco grilled to perfection 
+                                to colorful and refreshing caipirinhas, our menu showcases the rich diversity of Brasilian traditions. We invite 
+                                you to join us on this gastronomic adventure, where the warmth of Brasilian hospitality meets the charm of Southern living. 
+                                Come savor the flavors, share in the joy, and make lasting memories with us at Dixie Brasilian in Athens, where every meal 
+                                is a celebration of culture and community. 
+                            </p>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <!--Column two-->
+                    <div class="col border">
+                        <hr>
+                        <div id="contact">
+                            <form action="#">
+                                <fieldset>
+                                    <legend>Contact Us</legend>
+                                        <label for="PickATime">Pick A Time</label>
+                                        <select id="PickATime" name="PickATime">
+                                            <option value="PickATime" selected>Pick A Time</option>
+                                            <option value="10:00 Am">10:00 am</option>
+                                            <option value="11:00 Am">11:00 am</option>
+                                            <option value="12:00 Pm">12:00 pm</option>
+                                            <option value="1:00 Pm">1:00 pm</option>
+                                            <option value="2:00 Pm">2:00 pm</option>
+                                            <option value="3:00 Pm">3:00 pm</option>
+                                            <option value="4:00 Pm">4:00 pm</option>
+                                            <option value="5:00 Pm">5:00 pm</option>
+                                            <option value="6:00 Pm">6:00 pm</option>
+                                            <option value="7:00 Pm">7:00 pm</option>
+                                            <option value="8:00 Pm">8:00 pm</option>
+                                            <option value="9:00 Pm">9:00 pm</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <label for="NumberofGuests">Number of Guests</label>
+                                    <select id="NumberofGuests" name="NumberofGuests">
+                                        <option value="guests" selected>Number of Guests</option>
+                                        <option value="11:00 Am">1</option>
+                                        <option value="12:00 Pm">2</option>
+                                        <option value="1:00 Pm">3</option>
+                                        <option value="2:00 Pm">4</option>
+                                        <option value="3:00 Pm">5</option>
+                                        <option value="4:00 Pm">6</option>
+                                        <option value="5:00 Pm">7</option>
+                                        <option value="6:00 Pm">8</option>
+                                        <option value="7:00 Pm">9</option>
+                                        <option value="8:00 Pm">10+</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <label for="date">Pick a Date</label>
+                                    <input type="date" id="date" name="Date">
+                                    <br>
+                                    <br>
+                                    <input class="btn btn-warning btn-lg" type="submit" name="Find a Table" value="Find a Table">
+                                    <input class="btn btn-warning btn-lg" type="submit" name="Order Online" value="Order Online">
+                                </fieldset>
+                                <br>
+                            </form>
+                            <a href="LindleyBrasil2.html"><img height="250" width="400" src="contact.jpg" alt="contact"></a>
+                        </div>
+                        <hr>
+                    </div>                
+                </div>
+
+                <!--Row two-->
+                <div class="row">
+                    
+                    <!--Column one-->
+                    <div class="col border">
+                        <hr>
+
+                        <!-- Bootstrap carousel -->
+                        <div id="streetfood" class="carousel slide" data-ride="carousel">
+
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#streetfood" data-slide-to="0" class="active"></li>
+                                <li data-target="#streetfood" data-slide-to="1"></li>
+                                <li data-target="#streetfood" data-slide-to="2"></li>
+                            </ul>
+          
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Pãodequeijo.jpg" class="d-block w-100" alt="Pão de queijo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Picanha.jpg" class="d-block w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Kibe.jpg" class="d-block w-100" alt="">
+                                </div>
+                            </div>
+          
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#streetfood" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#streetfood" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                        <h1>Street Menu</h1>
+                        <hr>
+                        <p>
+                            Need a quick bite before work or just an afternoon snack? Come on in and check out our street food options.
+                            We have many different types that will satisfy anyone. You can try our Pão de Queijo (cheese bread), Picanha
+                            (barbecued beef), or Kibe (meat patties). If you have a sweet tooth, come and try our Pastel de Queijo (deep-fried 
+                            cheese pastry) or Açai na Tigela (Açai in the Bowl).
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <!--Row three-->
+                <div class="row">
+                    <!--Column one-->
+                    <div class="col border" id="afternoon">
+                        <hr>
+                        <div class="card" style="width: 30rem;">
+                            <a href="#"><img class="card-img-top" width="350" height="250" src="Churrasco1b.jpg" alt="afternoon"></a>
+                            <div class="card-body">
+                                <h1 class="card-title">Afternoon Menu</h1>
+                                <p class="card-text">Our lunch menu won't disappoint you; we have a wide range of premium meats that will leave you feeling full.</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <!--Column two -->
+                    <div class="col border" id="dinner">
+                        <hr>
+                        <div class="card" style="width: 30rem;">
+                            <a href="#"><img class="card-img-top" width="350" height="250" src="Churrasco1a.jpg" alt="dinner"></a>
+                            <div class="card-body">
+                                <h1 class="card-title">Dinner Menu</h1>
+                                <p class="card-text">Explore our highly favored authentic Churrasco options from Fraidinha, Sausages, and Garlic-Covered Picanha.</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <!--Column three-->
+                    <div class="col border">
+                      <hr>
+                      <h1>Store Hours</h1>
+                      <table>
+                        <caption>Regular Store Hours <br> Store hours may vary on holidays! <br> Stay in touch on the media for the latest news.</caption>
+                            <tr>
+                                <td></td>
+                                <th>10:00 am</th>
+                                <th>11:00 am</th>
+                                <th>12:00 pm</th>
+                                <th>1:00 pm</th>
+                                <th>2:00 pm</th>
+                                <th>3:00 pm</th>
+                                <th>4:00 pm</th>
+                                <th>5:00 pm</th>
+                                <th>6:00 pm</th>
+                                <th>7:00 pm</th>
+                                <th>8:00 pm</th>
+                                <th>9:00 pm</th>
+                            </tr>
+                            <tr>
+                                <th>Monday</th>
+                                <td colspan="11">Open</td>
+                                <td>Close</td>
+                            </tr>
+                            <tr>
+                                <th>Tuesday</th>
+                                <td colspan="11">Open</td>
+                                <td>close</td>
+                            </tr>
+                            <tr>    
+                                <th>Wednesday</th>
+                                <td colspan="7">Open</td>
+                                <td colspan="5">Close</td>
+                            </tr>
+                            <tr>
+                                <th>Thursday</th>
+                                <td colspan="11">Open</td>
+                                <td>Close</td>
+                            </tr>
+                            <tr>
+                                <th>Friday</th>
+                                <td colspan="12">Open</td>
+                            </tr>
+                            <tr>
+                                <th>Saturday</th>
+                                <td colspan="12">Open</td>
+                            </tr>
+                            <tr>    
+                                <th>Sunday</th>
+                                <td colspan="12">Close</td>
+                            </tr>
+                        </table>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!--Jumbotron-fluid-->
+        <footer class="jumbotron-fluid text-center text-white bg-dark p-3">
+            <hr>
+            <h2>Contacts</h2>
+                <p>Phone Number: 256-221-xxxx</p>
+                <p>Gmail: DixieBrasilian@gmail.com</p>
+                <p>229 French Farms Blvd f, Athens, AL 35611</p>
+                <p>© 1996 – 2024 "Dixie Brasilian". All rights reserved.</p>
+                <hr>
+        </footer>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
