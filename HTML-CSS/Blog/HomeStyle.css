@@ -1,0 +1,55 @@
+body {
+    background-color: #f0f0f0;
+    background-image: url('wp2760730.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.card-title {
+    color: #343a40;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.welcome-text{
+    color: black;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+.btn-custom-bg-colors{
+    background-color: #343a40;
+    padding: 5px, 5px, 5px, 5px;
+}
+
+.btn-custom-font-color {
+    color: rgb(255, 67, 239) !important;
+}
+.btn-custom-font-colors {
+    background: rgb(233, 118, 226) !important;
+}
+.btn-custom-font-color:hover {
+    color: lightgray !important;
+    text-shadow: 0 0 12px rgba(251, 92, 245, 0.5);
+}
+
+.container{
+    opacity: 0.90;
+}
+.borders{
+    box-shadow: 0 0 12px rgba(251, 92, 245, 0.5);
+    border: 2px solid #6c0786; 
+}
+.highlight-hover:hover {
+    border-color: #a2a7ab;
+    box-shadow: 0 0 12px rgba(251, 92, 245, 0.5);
+  }

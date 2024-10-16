@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f0f0;
+    background-image: url('Background2.jpg');
+    background-repeat: no-repeat;
+    background-size: 101%;
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.card-title {
+    color: #343a40;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+.btn-custom-bg-colors{
+    background-color: darkgrey;
+    padding: 5px, 5px, 5px, 5px;
+}
+
+.btn-custom-font-color {
+    color: rgb(255, 67, 239) !important; /* Custom text color */
+}
+.btn-custom-font-colors {
+    background: rgb(174, 146, 172) !important; /* Custom text color */
+}
+.btn-custom-font-color:hover {
+    color: lightgray !important; /* Custom text color */
+}
+
+.container{
+    opacity: 0.90;
+}
